@@ -20,7 +20,7 @@ const pi = 3.14;
 
 // pi = 2;  will throw an error
 
-
+// let you can change. constant is unchangeable
 
 let myNumber = 5;
 
@@ -28,6 +28,6 @@ let myNumber = 5;
 Math.min (myNumber, pi);
 console.log(Math.min(pi, 5));
 
-// gives output of 3.14 as myDude has no value in this scenario
+// gives output of 3.14 as myDude has no value in this scenario as it is a string but still runs
 Math.max (myNumber, myDude);
 console.log(Math.max(pi, 1));
